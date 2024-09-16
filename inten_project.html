@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="intern_project1.css">
+    <link rel="stylesheet" href="service.css">
+    <style>
+        /*                                               service                          */
+        .service{
+            width:100%;
+            height:400px;
+            
+        }
+        .service{
+            display:flex;
+            background-color:white;
+            justify-content: space-around;
+            flex-direction: row;
+            padding-top: 40px;
+            color:whitesmoke;
+        }
+
+        .service> div{
+            background-color:rgb(240, 190, 114) ;
+            width:300px;
+            height:370px;
+            padding: 4px;
+            padding:3px;
+        }
+
+    
+
+        #car:hover{
+            background-color:grey;
+            transform: translateX(30px,40px);
+            box-shadow: 3px 2px 2px 2px rgb(17, 16, 16);
+            color:black
+        
+        }
+
+       
+        #icon{
+            width:70px;
+            height:70px;
+            font-size: 70px;
+            padding: 15px;
+            color:black; 
+        }
+
+        #icon:hover{
+            color:black;
+        }
+
+
+
+        #button{
+            margin-left: 112.5px;
+            margin-top: 30px;
+        }
+
+        /*                                                           FEATURED            */
+
+        #featuredcar{
+            text-align: center;
+        }
+
+        .featured{
+            width:100%;
+            height: 420px;
+            
+        }
+
+        .featured{
+            display:flex;
+            flex-direction: row;
+            justify-content:space-around;
+            padding:4px;
+            background-color:whitesmoke;
+
+        }
+
+        .featured > div{
+            width:45%;
+            height:90%;
+            background-color:whitesmoke;
+        }
+
+        #cars{
+             width:140px;
+             height: 40px;
+             margin-left: 150px;
+             text-align: center;
+             background-color: burlywood;
+             
+        }
+        #views{
+            text-align: center;
+        }
+
+        #cars,#views :hover{
+            background-color: black;
+            color:burlywood;
+            box-shadow: 1px,2px,3px,4px rgb(72, 25, 25);
+            transition: 1s;
+        }
+
+        /*                                               Newcars                         */
+
+        .newcars{
+            display: grid;
+            grid-template-columns: 270px 270px 270px 270px ;
+            grid-gap: 15px;
+            background-color:black;
+            padding: 10px;
+            
+        }
+        .newcars>div{
+            width:275px;
+            height: 275px;
+            text-align: center;
+            background-color: black;
+            margin: 20px;
+            margin-left: 50px;
+        }
+
+        .View{
+            width:100%;
+            height:80px;
+            background-color: black;
+        }
+
+        #View{
+            margin-top: 30px;
+            width:100px;
+            height: 20px;
+           
+        }
+
+        #View:hover{
+            box-shadow: 2px 1px 1px 1px silver;
+        }
+
+      
+
+        /*                                          clients says                          */
+
+        .clients{
+            display: flex;
+            flex-direction: row;
+            padding:20px;
+            background-color: black;
+            width: 96%;
+            height: 350px;
+        }
+        .clients>div{
+            width:270px;
+            height: 300px;
+            background-color:bisque;
+            padding: 20px;
+            margin-left: 80px;;
+        }
+
+
+        /*                                                   BRANDS                     */
+
+        .BRANDS{
+            display:grid;
+            grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px;
+            grid-row-gap:15px;
+        
+
+        }
+        .BRANDS>div{
+            margin-left: 50px;
+            
+        
+        }
+
+        /*                                                 contact                       */
+
+        .content{
+            width:100%;
+            height:500px;
+            background-color: black;
+            color:white;
+
+        
+    
+        }
+        .content{
+            display: grid;
+            grid-template-columns: 500px 150px 250px 250px ;
+            grid-row-gap:20px ;
+            grid-gap:10px;
+        
+        }
+        .content>div{
+          
+            background-color:black;
+        }
+
+        #contact1{
+            margin-left:130px;
+        }
+       
+
+
+        #about{
+            margin-top: 25px;
+          
+
+        }
+
+        #about:hover{
+            margin-left: 10px;
+            color:orange;
+        }
+
+        #contact3{
+            columns: 60px 2;
+        }
+
+        #email{
+            background-color: transparent;
+            color:white;
+            background-color:black;
+
+        }
+
+        #contcat1:hover{
+            color:orange;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="part">
+        <nav> <span style="font-size:50px;"> carvilla </span>
+        <a href ="intarn_home.html"> HOME </a> 
+        <a href ="#service"> SERVICE </a> 
+        <a href ="#featuredcar"> FEATURED CARS </a> 
+        <a href ="#model"> NEW CARS </a> 
+        <a href ="#BRANDS"> BRANDS </a> 
+        <a href ="#contact"> CONTACT </a> 
+        </nav>
+    </div>
+        <hr>
+        <hr>
+    <div class="part1">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <pre style="font-size: 40px;"> It's all <span style="color:bisque">Start's </span>
+         with a <span style="color:bisque">Dream</span>
+        </pre>
+
+    </div>
+    <br>
+    <br>
+    <br>
+
+    <!--                                service                                       -->
+
+
+
+    <h1 id="service"></h1>
+    <div>
+        <h1 style="text-align: center;"> Service</h1>
+    </div>
+
+    <div class="service">
+        <div id="car">
+        <h3 style="text-align: center;">
+        <br>
+        <br>
+        <br>
+        <i class="fa-solid fa-car" id="icon"></i>
+        <br>
+         Largest Dealership of Cars
+        </h3>
+        
+        <p style="text-align:justify;">
+         Nemo enim ipsam voluptatem quia 
+         voluptas sit aspernatur aut odit
+         aut den fugit sed quia.
+        </p>
+        <button id="button"> click here</button>
+
+        </div>
+
+        <div id="car">
+            <h3  style="text-align: center;">
+                <br>
+                <br>
+            <i class="fa-solid fa-car-battery" id="icon"></i>
+            <br>
+            <br>
+           
+                Unlimited Repair Warranty
+            </h3>
+            <p  style="text-align:justify;">
+                
+             Nemo enim ipsam voluptatem 
+             quia voluptas sit aspernatur 
+             aut odit aut den fugit sed quia.
+
+            </p>
+            <button id="button"> click here</button>
+            
+            
+
+        </div>
+
+        <div id="car">
+            <h3  style="text-align: center;">
+                <br>
+                <br>
+                <i class="fa-solid fa-car-burst" id="icon"></i>
+                <br>
+                <br>
+                Insurance Support
+            </h3>
+            <p  style="text-align:justify;">
+                
+             Nemo enim ipsam voluptatem 
+             quia voluptas sit aspernatur
+             aut odit aut den fugit sed quia.
+            </p>
+            <button id="button"> click here</button>
+            
+        </div>
+
+    </diV>
+    <br>
+    <br>
+    <!--                                  FEATURED CAR                         -->
+
+    <h3 id="featuredcar">  Checkout the Latest Cars</h3>
+    <h1 id="featuredcar"> Newest Cars</h1>
+    <br>
+    <div class="featured">
+        <div id="feat1">
+            <img src="https://cdn11.bigcommerce.com/s-hmjw8fgkuv/images/stencil/1280x1280/products/9717/19342/lamborghini-revuelto_03-2__36540.1706271684.jpg?c=1" width="100%" height="100%">
+
+        </div>
+
+
+        <div id="feat2">
+            <br>
+
+            <h1 style="text-align: center;">Lamborghini-The Revuelto </h1>
+            <br>
+            <br>
+            <p style="text-align: justify;">
+                The Revuelto is Lamborghini's new flagship V12 supercar, 
+            replacing the venerable Avendator. The Revuelto is the 
+            first non-limited series Lamborghini to offer a full
+            performance hybrid powertrain, to the point that it reaches 
+            hypercar levels of power at 1,001 HP with the first introductory model.</p>
+
+            <br>
+            <br>
+            <br>
+
+            <button id="cars">
+                <a href="#" id="View" > View </a>
+            </button>
+
+        </div>
+
+
+    </div>
+
+    <br>
+    <!---                                          new cars        -->
+
+    <br>
+     <h1 id="model" style="text-align: center;"> NEW CARS</h1>
+    <br>
+    <br>
+
+    <div class="newcars">
+        <div id="model1">
+            <img src="https://www.desktopbackground.org/p/2010/09/18/81647_wallpapers-car-wide-free-download-hd-wallpapers-1080p_2560x1600_h.jpg" width="275px" height="275px">
+
+        </div>
+        <div id="model2">
+            <img src="https://media.istockphoto.com/id/485481458/photo/generic-black-car-on-white.jpg?s=612x612&w=0&k=20&c=gFLwkhT2rycIxvQdJ1eYgyr_FhGkmTXJkce4gnZPIJM=" width="275px" height="275px">
+
+        </div>
+        <div id="model3">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ9jOZW9I37MZsVolOd03dNdHUZtYrqSCZPQ&s" width="275px" height="275px">
+        </div>
+        <div id="model4">
+            <img src="https://vehicle-images.dealerinspire.com/34db-110006205/1GT49VEY8RF418870/4d7f79c27331eaa7b1c29b9b7129f3a6.jpg" width="275px" height="275px">
+        </div>
+        <div id="model5">
+            <img src="https://imgd.aeplcdn.com/1920x1080/n/cw/ec/44709/fortuner-exterior-right-front-three-quarter-20.jpeg?isig=0&q=80&q=80" width="275px" height="275px">
+        </div>
+        <div id="model6">
+            <img src="https://imgd-ct.aeplcdn.com/664x415/n/cw/ec/141373/q3-sportback-exterior-right-front-three-quarter-2.jpeg?isig=0&q=80" width="275px" height="275px">
+        </div>
+        <div id="model7">
+            <img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/find-a-car/Creta/Highlights/mob/cretagalleryb3.jpg" width="275px" height="275px">
+
+        </div>
+        <div id="model8">
+            <img src="https://gumtreeau-res.cloudinary.com/image/private/t_$_s-l400/move/7c62f179-bbb0-433e-b655-1d9864d0ad74" width="275px" height="275px">
+        </div>
+        <div id="model9">
+            <img src="https://www.financialexpress.com/wp-content/uploads/2023/12/kl-rahul-defender.jpg" width="275px" height="275px">
+        </div>
+        <div id="model10">
+            <img src="https://res.cloudinary.com/driveau/image/upload/v1616460456/cms/uploads/adiEDs1CT8mfjiHRUQOS.jpg" width="275px" height="275px">
+
+        </div>
+        <div id="model11">
+            <img src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cdni.autocarindia.com/ExtraImages/20230426025944_DEF_24MY_OUTBOUND_260423_01.jpg&w=700&c=1" width="275px" height="275px">
+
+        </div>
+        <div id="model112">
+            <img src="https://imgd.aeplcdn.com/370x208/n/55reasa_1459072.jpg?q=80" width="275px" height="275px">
+        </div>
+
+    </div>
+
+    <div class="View">
+      &nbsp;    &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+      &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  
+      &nbsp;    <button id="View"> View All </button>
+    </div>
+
+
+    <!--                                             Clients Say                          -->
+
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align: center;"> What Our Clients Say</h1>
+    <br>
+    <br>
+
+    <div class="clients">
+
+       
+    
+        <div id="client1">
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c2.png" width="40px" heoight="40px" id="clientimages">
+            <br>
+            <h4>Vamsika</h4>
+            <p>
+                
+             From Dave the Boss, to Bo, Glenn, Justin and John this shop is first class! 
+             I am from out of town and showed up with no appointment and some problems I 
+             didn't even know I had! Justin was very thorough and thoughtful and figured 
+             out the best way to get me back on my way home. I wish you had a shop a
+              little further North, you would see me often! Thank You, Scott from 
+              Wisconsin
+            </p>
+        </div>
+       
+        <div id="client2">
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c1.png"width="40px" height="40px">
+            <h4>Sasi</h4>
+            <p>
+                Got the back brakes done. Their employees are very professional and informative. 
+                They go above and beyond to make sure our questions are answered. Would 100% 
+                recommend to anyone who needs their auto repaired at a reasonable rate.
+            </p>
+        </div>
+        <div id="client3">
+            <img src="https://www.free-css.com/assets/files/free-css-templates/preview/page296/carvilla/assets/images/c3.png"width="40px" height="40px">
+            <h4>Mamidi</h4>
+            <p>
+                
+               Hi I just want to say thank you for looking after my car and Resolve my problems 
+               as I try 
+               with many different garages Martin Did a good job Martin was one of the nicest
+                Mechanic I’ve ever worked with in the past 19 years . Big thank you .
+            </p>
+        </div>
+
+    </div>
+   
+    <!--                                                        BRANDS                   -->
+
+    <br >
+    <br>
+    <br id="BRANDS">
+    <h1 style="text-align: center;">BRANDS</h1>
+    <br>
+    <br>
+    <br>
+    <div class="BRANDS">
+        <div id="logos1">
+            <img src="https://cdn.mos.cms.futurecdn.net/JEtsrVh2BGkGL3jYQofBah-320-80.jpg" width="150px" height="60px">
+
+        </div>
+        <div id="logos2">
+            <img src="https://www.globalbrandsmagazine.com/wp-content/uploads/2021/05/BMW.jpg"width="150px" height="60px">
+
+        </div>
+        <div id="logos3">
+            <img src="https://digitalsynopsis.com/wp-content/uploads/2018/07/car-logos-ford.jpg"width="150px" height="60px">
+
+
+        </div>
+        <div id="logos4">
+            <img src="https://inkbotdesign.com/wp-content/uploads/2020/01/new-volkswagen-logo-design-1024x576.png"width="150px" height="60px">
+
+
+        </div>
+        <div id="logos5">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKit3UaSSVJoMY99l1T0wquANPN5gcfI8bzIFyYsbrbkAtnOfVStn8ptK0cLRAguGd1V8&usqp=CAU"width="150px" height="60px">
+
+
+        </div>
+        <div id="logos6">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3DE1KsZAYqeFCrCLWeZHjN_E4xUtUQJeg7HsrQaz5k70Y9nM_oVpq-4K1-YDFmaGhG8k&usqp=CAU"width="150px" height="60px">
+
+
+        </div>
+        <div id="logos7">
+            <img src="https://loghi-famosi.com/wp-content/uploads/2021/04/Volvo-Logo.png"width="150px" height="60px">
+
+
+        </div>
+        <div id="logos8">
+            <img src="https://digitalsynopsis.com/wp-content/uploads/2018/07/car-logos-mercedes-benz.jpg"width="150px" height="60px">
+
+
+        </div>
+        <div id="logos9">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9tec3YWobksCCsKgRMHd8QKSjEfamutoMtgtHQzoLww&s"width="150px" height="60px">
+
+
+        </div>
+        <div id="logos10">
+            <img src="https://inkbotdesign.com/wp-content/uploads/2012/09/Bentley-Logo-Design.png"width="150px" height="60px">
+
+
+        </div>
+
+        <div id="logos11">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3jLdiRIffyVvYjJSgZqFzc73YJSfqcRbR6Q&s" width="150px" height="60px">
+
+            
+        </div>
+
+        <div id="logos12">
+            <img src="https://c.ndtvimg.com/2022-02/6ru8sdt_car_625x300_07_February_22.jpg" width="150px" height="60px">
+            
+            
+        </div>
+
+        <div id="logos13">
+            <img src="https://i.pinimg.com/736x/2c/37/02/2c3702e21b44ea88b0ab651b5aff1e71.jpg" width="150px" height="60px">
+            
+            
+        </div>
+        <div id="logos14">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYc2djYFTQ1djRTRvfX02ZNO6Yt-JiPVzxfQ&s" width="150px" height="60px">
+            
+            
+        </div>   <div id="logos15">
+            <img src="https://i.pinimg.com/originals/27/2f/cd/272fcd3d1ac73529e35c8d9d420005fc.png" width="150px" height="60px">
+            
+            
+        </div>   <div id="logos16">
+            <img src="https://www.carlogos.org/logo/Rolls-Royce-logo-2048x2048.png" width="150px" height="60px">
+            
+            
+        </div>
+
+
+    </div>
+    <!-----                                                    contact                -->
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br id="contact">
+    <div class="content">
+    <div id="contact1">
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-size: 50px;">
+            Carvilla
+        </h1>
+        <br>
+        <br>
+        <p style="font-size: 20px;"> Ased do eiusm tempor incidi ut</p>
+        <p style="font-size: 20px;"> labore et dolore magnaian</p>
+        <p style="font-size: 20px;"> aliqua. Ut enim ad minim veniam.</p>
+
+        <br>
+        <br>
+        <br>
+        <p style="font-size: 20px;">name@domain.com</p>
+
+        <p style="font-size: 20px;">+1 (222) 1234567890></p>
+
+    </div>
+
+    <div id="contact2">
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h4> ABOUT DEVLOON</h1>
+        <br>
+        <br>
+
+    <p id="about">About Us</p>
+    <br>
+    <br>
+     <p id="about">Career</p>
+     <br>
+     <br>
+    <p id="about">Terms of service</p>
+    <br>
+    <br>
+     <p id="about">Privacy Policy</p>
+
+    </div>
+
+    <div id="contact3">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h4>TOP BRANDS</h4>
+        <br>
+        <br>
+        <p id="about">BMW</p>
+        <p id="about">Lamborghini</p>
+        <p id="about">Camaro</p>
+        <p id="about">Audi</p>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p id="about">Infiniti</p>
+        <p id="about">Nissan</p>
+        <p id="about">Ferrari</p>
+        <p id="about">Porsche</p>
+        <p id="about">Land Rover</p>
+        <p id="about">Aston Martin</p>
+        <p id="about">Mersedes</p>
+        <p id="about">Opel</p>
+
+    </div>
+
+    <div id="contact4">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h3>NEWS LETTER</h3>
+        <br>
+        <br>
+        <br>
+        <p style="font-size: 20px;"> Subscribe to get latest news </p>
+        <p style="font-size: 20px;">update and informations</p>
+        <br>
+        <button id="email">
+            <input type="text" placeholder=" Enter  Your Email">
+        </button>
+        <br>
+        <br>
+        <i class="fa-brands fa-square-instagram"></i>
+        <br>
+        <br>
+        <i class="fa-brands fa-square-whatsapp"></i>
+        <br>
+        <br>
+        <i class="fa-brands fa-square-facebook"></i>
+        <br>
+        <br>
+        <i class="fa-brands fa-facebook-messenger"></i>
+        
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+</body>
+</html>
